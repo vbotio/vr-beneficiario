@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 import { LibraryModule } from 'vr-library';
 
 import { AppComponent } from './app.component';
+import { NovoComponent } from './novo/novo.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NovoComponent
   ],
   imports: [
     BrowserModule,
