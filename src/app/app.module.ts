@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { LibraryModule, HeaderModule } from 'vr-library';
+import { LibraryModule, HeaderModule, FooterModule } from 'vr-library';
 
 import { AppComponent } from './app.component';
 
@@ -12,7 +12,8 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     LibraryModule,
-    HeaderModule
+    HeaderModule,
+    FooterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
